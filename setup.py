@@ -11,7 +11,7 @@ if sys.version_info.major < 3 or (sys.version_info.major == 3 and sys.version_in
 here = os.path.abspath(os.path.dirname(__file__))
 metadata = {}
 
-with open(os.path.join(here, 'S2S', '__version__.py'), 'r', encoding='utf-8') as f:
+with open(os.path.join(here, '__version__.py'), 'r', encoding='utf-8') as f:
     exec(f.read(), metadata)
 
 with open('README.md', 'r', 'utf-8') as f:
@@ -31,17 +31,21 @@ setuptools.setup(
     install_requires=[
         'scikit-learn',
         'matplotlib',
-        'pytorch',
+        'pandas',
+        'jupyter',
+        'torchvision==0.13.1',
+        'torchaudio',
+        'torch',
     ],
-    # extras_require={
-    #     'dev': [
-    #         'pytest',
-    #         'codecov',
-    #         'flake8==3.8.2',
-    #         'coverage',
-    #         'pdoc3',
-    #         'autopep8',
-    #         'colorama==0.4.3'
-    #     ]
-    # }
+    extras_require={
+        'dev': [
+            # 'pytest',
+            # 'codecov',
+            # 'flake8==3.8.2',
+            # 'coverage',
+            # 'pdoc3',
+            # 'autopep8',
+            # 'colorama==0.4.3'
+        ]
+    }
 )
