@@ -29,9 +29,9 @@ Install the environment needed for this repository:
 ## Interview Procedures
 
 1. Install Python environment correclty and run the Jupyter Notebook S2S/S2S_Using_Synthetic_Data_Interview.ipynb
-2. Answer the following question: 2.1 What does this code trying to do? 2.2 What can you do to improve the model accuracy?
-3. Coding Task 1: Modify the model parameter to achieve higher accuracy
-4. Coding Task 2: Find another machine learning algorithm and compare its performance with S2S model.
+2. Answer the following question: 2.1 Please describe the mechanism of the algorithm and steps of the code. 2.2 How does the code deal with model uncertainties? 2.3 What can you do to improve the model accuracy?
+3. Coding Task 1: Modify/Tune the model parameter to achieve higher accuracy
+4. Coding Task 2: Find another machine learning algorithm and compare its performance with this model.
 5. Write a short summary of your understanding of this code and what you learned from this practice
 
 Follow the procedures above and save it as a new file named "S2S_Using_Synthetic_Data_Interview_Your Name.ipnyb". Send it back to Dr. Liang Zhang at liangzhang1@arizona.edu before deadline.
