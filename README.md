@@ -28,7 +28,7 @@ Install the environment needed for this repository:
 
 ## Interview Procedures
 
-1. Install Python environment correctly and run the Jupyter Notebook `S2S/S2S_Self_Defined_Data_GitHub.ipynb`
+1. Install Python environment correctly and run `S2S/S2S_Self_Defined_Data_GitHub.ipynb` in Jupyter Notebook
 2. Answer the following question: 2.1 Please describe the mechanism of the algorithm and steps of the code. 2.2 How does the code deal with model uncertainties? 2.3 What can you do to improve the model accuracy?
 3. Coding Task 1: Modify/Tune the model parameter to achieve higher accuracy
 4. Coding Task 2: Apply better feature engineering to achieve higher accuracy
